@@ -129,7 +129,7 @@ public class TeacherHttpController {
     public List<TeacherTo> getAllTeachers(){
         try (Connection connection = pool.getConnection()) {
             Statement stm = connection.createStatement();
-            ResultSet rst = stm.executeQuery("SELECT * FROM teacher");
+            ResultSet rst = stm.executeQuery("SELECT * FROM teacher ORDER BY id");
             List<TeacherTo> teacherList = new LinkedList<>();
             while (rst.next()){
                 int id = rst.getInt("id");
