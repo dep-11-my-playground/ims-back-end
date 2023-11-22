@@ -2,7 +2,7 @@ package lk.ijse.dep11.ims.api;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
-import lk.ijse.dep11.ims.To.TeacherTo;
+import lk.ijse.dep11.ims.to.TeacherTo;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;

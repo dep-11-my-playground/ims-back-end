@@ -1,4 +1,4 @@
-package lk.ijse.dep11.ims.To;
+package lk.ijse.dep11.ims.to;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
