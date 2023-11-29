@@ -23,7 +23,7 @@ public class CourseHttpController {
     public CourseHttpController() {
         HikariConfig config = new HikariConfig();
         config.setUsername("root");
-        config.setPassword("Hasini@123");
+        config.setPassword("mysql");
         config.setJdbcUrl("jdbc:mysql://localhost:3306/dep11_ims");
         config.setDriverClassName("com.mysql.jdbc.Driver");
         config.addDataSourceProperty("maximumPoolSize", 10);

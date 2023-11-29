@@ -23,7 +23,7 @@ public class TeacherHttpController {
         config.setUsername("root");
         config.setPassword("mysql");
         config.setJdbcUrl("jdbc:mysql://localhost:3306/dep11_ims");
-        config.setDriverClassName("com.mysql.jdbc.Driver");
+        config.setDriverClassName("com.mysql.cj.jdbc.Driver");
         config.addDataSourceProperty("maximumPoolSize", 10);
         pool = new HikariDataSource(config);
     }
